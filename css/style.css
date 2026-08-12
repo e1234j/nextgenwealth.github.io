@@ -513,43 +513,203 @@ nav a:hover {
    HERO LOGO
 ========================================= */
 
-.hero-logo-card {
+/* =========================================
+   HERO VISUAL
+========================================= */
 
+.hero-visual {
+    width: 560px;
+    height: 470px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
+/* =========================================
+   SLIDESHOW
+========================================= */
+
+.slideshow {
+    position: absolute;
+    width: 350px;
+    height: 290px;
+    top: 20px;
+    right: 0;
+
+    background: var(--orange);
+    border-radius: 18px;
+    padding: 32px;
+
+    transform: rotate(3deg);
+
+    box-shadow:
+        0 30px 70px rgba(0,0,0,0.35);
+
+    overflow: hidden;
+
+    z-index: 2;
+}
+
+
+.slide {
+    position: absolute;
+    inset: 0;
+
+    padding: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    opacity: 0;
+
+    transform: translateX(25px);
+
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+}
+
+
+.slide.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.slide-number {
     position: absolute;
 
-    width: 350px;
+    top: 28px;
+    right: 30px;
 
-    height: 245px;
+    font-size: 11px;
+    font-weight: 800;
 
-    bottom: 25px;
+    letter-spacing: 2px;
+}
 
-    left: 0;
+
+.slide-icon {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 10px;
+
+    background: rgba(255,255,255,0.15);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 27px;
+    font-weight: 800;
+}
+
+
+.slide-small {
+    font-size: 10px;
+    font-weight: 800;
+
+    letter-spacing: 1.8px;
+
+    margin-bottom: 7px;
+}
+
+
+.slide h3 {
+    font-size: 42px;
+
+    line-height: 1;
+    letter-spacing: -2px;
+
+    margin-bottom: 12px;
+}
+
+
+.slide p {
+    max-width: 260px;
+
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   SLIDESHOW DOTS
+========================================= */
+
+.slide-controls {
+    position: absolute;
+
+    bottom: 20px;
+    left: 32px;
+
+    display: flex;
+    gap: 7px;
+
+    z-index: 5;
+}
+
+
+.slide-dot {
+    width: 7px;
+    height: 7px;
+
+    padding: 0;
+    border: none;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.4);
+
+    cursor: pointer;
+}
+
+
+.slide-dot.active {
+    background: white;
+}
+
+
+/* =========================================
+   HERO LOGO
+========================================= */
+
+.hero-logo-card {
+    position: absolute;
+
+    width: 260px;
+    height: 210px;
+
+    bottom: 20px;
+    left: 5px;
 
     background: white;
 
     border-radius: 18px;
 
-    padding: 24px;
+    padding: 18px;
 
     display: flex;
-
     align-items: center;
-
     justify-content: center;
 
-    transform: rotate(-5deg);
+    transform: rotate(-4deg);
 
     box-shadow:
-        0 25px 60px rgba(0,0,0,0.35);
+        0 25px 60px rgba(0,0,0,0.30);
 
-    z-index: 3;
+    z-index: 4;
 
     transition: 0.4s ease;
 }
 
 
 .hero-logo-card:hover {
-
     transform:
         rotate(-2deg)
         translateY(-5px);
@@ -557,11 +717,8 @@ nav a:hover {
 
 
 .hero-logo-card img {
-
-    width: 108%;
-
-    max-width: 370px;
-
+    width: 100%;
+    max-width: 235px;
     height: auto;
 
     display: block;

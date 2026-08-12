@@ -2898,3 +2898,15 @@ footer {
 .involved-section h2 span {
     color: var(--orange) !important;
 }
+
+/* =========================================
+   GET INVOLVED HEADING FIX
+========================================= */
+
+.involved-box h2 {
+    color: white !important;
+}
+
+.involved-box h2 span {
+    color: var(--orange) !important;
+}

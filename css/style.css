@@ -3598,3 +3598,67 @@ footer {
 .team-hero {
     padding-bottom: 55px !important;
 }
+/* =========================================
+   FINAL MEET THE TEAM SPACING FIX
+========================================= */
+
+/* Make the hero end sooner */
+.team-hero {
+    min-height: 0 !important;
+    padding-top: 150px !important;
+    padding-bottom: 70px !important;
+}
+
+/* Keep the hero content centered */
+.team-hero-content {
+    max-width: 1050px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+
+/* Reduce the gap after the hero */
+.team-intro {
+    padding-top: 55px !important;
+    padding-bottom: 35px !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+/* Center the entire intro */
+.team-intro-text {
+    max-width: 900px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+
+/* Hide the old giant number column if it is creating spacing */
+.team-intro-number {
+    display: none !important;
+}
+
+/* Make OUR TEAM sit closer to the intro */
+.team-intro .section-label {
+    margin-bottom: 18px !important;
+    text-align: center !important;
+}
+
+/* Heading */
+.team-intro-text h2 {
+    margin: 0 auto 16px !important;
+    text-align: center !important;
+}
+
+/* Description */
+.team-intro-text p {
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+
+/* Start the photo cards with a reasonable gap */
+.team-section {
+    padding-top: 35px !important;
+    padding-bottom: 100px !important;
+}

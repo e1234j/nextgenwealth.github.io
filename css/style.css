@@ -3563,3 +3563,8 @@ footer {
 .registration-hero h1 span {
     color: #FF7A00 !important;
 }
+/* REGISTER PAGE - HERO TEXT */
+
+.registration-hero p {
+    color: #FFFFFF !important;
+}

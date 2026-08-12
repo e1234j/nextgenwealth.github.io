@@ -3568,3 +3568,12 @@ footer {
 .registration-hero p {
     color: #FFFFFF !important;
 }
+/* Tighten spacing on the Meet the Team page */
+.team-hero {
+    padding-bottom: 70px;
+}
+
+.team-intro {
+    padding-top: 20px;
+    margin-top: 0;
+}

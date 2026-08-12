@@ -3186,3 +3186,22 @@ footer {
 .hero-logo {
     transform: translateY(30px) !important;
 }
+
+/* =========================================
+   HOMEPAGE LOGO / ORANGE CARD FIX
+========================================= */
+
+/* Put the orange rectangle in front */
+.hero-visual .slideshow {
+    z-index: 10 !important;
+}
+
+/* Keep the logo behind it */
+.hero-visual .hero-logo-card {
+    z-index: 2 !important;
+}
+
+/* Move the logo slightly lower */
+.hero-visual .hero-logo-card {
+    bottom: 5px !important;
+}

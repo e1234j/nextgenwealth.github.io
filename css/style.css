@@ -3524,24 +3524,31 @@ footer {
     }
 
 }
-/* REGISTER PAGE - NAVY TEXT ON LIGHT BACKGROUND */
-.register-page {
+/* =========================================
+   REGISTER PAGE TEXT
+========================================= */
+
+.register-page .registration-hero,
+.register-page .registration-info,
+.register-page .registration-form-section {
     color: #0B1F3A;
 }
 
-.register-page h1,
-.register-page h2,
-.register-page h3,
-.register-page h4,
-.register-page p,
-.register-page span,
-.register-page div,
-.register-page label {
+.register-page .registration-hero h1,
+.register-page .registration-hero p,
+.register-page .registration-info h2,
+.register-page .registration-info p,
+.register-page .registration-feature h3,
+.register-page .registration-feature p,
+.register-page .registration-form-heading h2,
+.register-page .registration-form-heading p {
     color: #0B1F3A;
 }
 
-.register-page a {
-    color: #0B1F3A;
+.register-page .registration-hero h1 span,
+.register-page .registration-info h2 span,
+.register-page .registration-form-heading h2 span {
+    color: #FF7A00;
 }
 
 .register-page .section-label {

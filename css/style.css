@@ -3181,3 +3181,8 @@ footer {
     }
 
 }
+/* Move homepage logo slightly lower */
+
+.hero-logo {
+    transform: translateY(30px) !important;
+}

@@ -3577,3 +3577,24 @@ footer {
     padding-top: 20px;
     margin-top: 0;
 }
+/* Fix spacing on Meet the Team page */
+.team-section {
+    padding-top: 45px !important;
+}
+
+.team-section .section-label {
+    margin-bottom: 28px !important;
+}
+
+.team-section h2 {
+    margin-bottom: 18px !important;
+}
+
+.team-section p {
+    margin-bottom: 0 !important;
+}
+
+/* Reduce the gap before Our Team */
+.team-hero {
+    padding-bottom: 55px !important;
+}

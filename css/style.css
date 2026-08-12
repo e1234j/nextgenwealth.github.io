@@ -3554,3 +3554,12 @@ footer {
 .register-page .section-label {
     color: #FF7A00;
 }
+/* REGISTER PAGE - HERO HEADING */
+
+.registration-hero h1 {
+    color: #FFFFFF !important;
+}
+
+.registration-hero h1 span {
+    color: #FF7A00 !important;
+}

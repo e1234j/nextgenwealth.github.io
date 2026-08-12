@@ -2796,3 +2796,95 @@ footer {
     }
 
 }
+
+/* =========================================
+   FORCE CENTER ALIGNMENT — TEAM PAGE
+========================================= */
+
+/* HERO */
+.team-hero,
+.team-hero-content {
+    text-align: center !important;
+}
+
+.team-hero-content {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.team-hero h1,
+.team-hero p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* OUR TEAM INTRO */
+.team-intro {
+    text-align: center !important;
+}
+
+.team-intro-text {
+    width: 100%;
+    max-width: 950px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+.team-intro-text h2,
+.team-intro-text p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* ORANGE BOTTOM SECTION */
+.team-cta {
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+.team-cta-content {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+.team-cta h2,
+.team-cta p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* SECTION LABELS */
+.team-hero .section-label,
+.team-intro .section-label,
+.team-cta .section-label {
+    text-align: center !important;
+}
+
+
+/* MOBILE */
+@media (max-width: 900px) {
+
+    .team-hero-content,
+    .team-intro-text,
+    .team-cta-content {
+        width: 100%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+    }
+
+    .team-cta {
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+}

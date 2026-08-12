@@ -2910,3 +2910,274 @@ footer {
 .involved-box h2 span {
     color: var(--orange) !important;
 }
+
+/* =========================================
+   GET INVOLVED PAGE
+========================================= */
+
+.involved-page-hero {
+
+    background: var(--navy);
+
+    padding:
+        170px
+        8%
+        100px;
+
+    text-align: center;
+
+}
+
+
+.involved-page-content {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+}
+
+
+.involved-page-hero h1 {
+
+    font-size:
+        clamp(
+            48px,
+            6vw,
+            76px
+        );
+
+    line-height: 1;
+
+    letter-spacing: -3px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.involved-page-hero h1 span {
+
+    color: var(--orange);
+
+}
+
+
+.involved-page-hero p {
+
+    max-width: 680px;
+
+    margin: 0 auto;
+
+    color: var(--gray);
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+}
+
+
+
+/* =========================================
+   INVOLVED BOX
+========================================= */
+
+.involved-page-section {
+
+    background: var(--off-white);
+
+    padding:
+        100px
+        8%
+        70px;
+
+}
+
+
+.involved-page-section .involved-box {
+
+    max-width: 1150px;
+
+    margin: 0 auto;
+
+}
+
+
+/* Make heading readable */
+
+.involved-page-section .involved-box h2 {
+
+    color: white !important;
+
+}
+
+
+.involved-page-section
+.involved-box h2 span {
+
+    color: var(--orange) !important;
+
+}
+
+
+
+/* =========================================
+   REGISTRATION SECTION
+========================================= */
+
+.registration-section {
+
+    background: var(--off-white);
+
+    color: var(--dark-text);
+
+    padding:
+        70px
+        8%
+        120px;
+
+}
+
+
+.registration-heading {
+
+    max-width: 850px;
+
+    margin: 0 auto 50px;
+
+    text-align: center;
+
+}
+
+
+.registration-heading h2 {
+
+    font-size:
+        clamp(
+            42px,
+            5vw,
+            62px
+        );
+
+    line-height: 1;
+
+    letter-spacing: -3px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.registration-heading h2 span {
+
+    color: var(--orange);
+
+}
+
+
+.registration-heading p {
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    color: #59697B;
+
+    font-size: 17px;
+
+}
+
+
+
+/* =========================================
+   GOOGLE FORM
+========================================= */
+
+.google-form-container {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    background: white;
+
+    border-radius: 16px;
+
+    padding: 10px;
+
+    box-shadow:
+        0 15px 50px
+        rgba(7, 23, 44, 0.10);
+
+    overflow: hidden;
+
+}
+
+
+.google-form-container iframe {
+
+    width: 100%;
+
+    min-height: 900px;
+
+    border: none;
+
+    display: block;
+
+}
+
+
+
+/* =========================================
+   INVOLVED PAGE MOBILE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .involved-page-hero {
+
+        padding:
+            140px
+            7%
+            80px;
+
+    }
+
+
+    .involved-page-hero h1 {
+
+        font-size: 48px;
+
+        letter-spacing: -2px;
+
+    }
+
+
+    .involved-page-section {
+
+        padding:
+            70px
+            7%
+            50px;
+
+    }
+
+
+    .registration-section {
+
+        padding:
+            50px
+            7%
+            80px;
+
+    }
+
+
+    .google-form-container iframe {
+
+        min-height: 1000px;
+
+    }
+
+}

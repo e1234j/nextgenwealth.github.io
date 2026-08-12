@@ -2407,5 +2407,321 @@ footer {
     }
 
 }
+/* =========================================
+   TEAM PAGE — FINAL STYLING
+========================================= */
 
+
+/* =========================================
+   TEAM HERO
+========================================= */
+
+.team-hero {
+    min-height: auto;
+    padding: 150px 8% 105px;
+    background: var(--navy);
+    color: white;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-hero-content {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.team-hero .section-label {
+    margin-bottom: 22px;
+}
+
+.team-hero h1 {
+    margin: 0 0 28px;
+    max-width: 1000px;
+    font-size: clamp(48px, 6vw, 78px);
+    line-height: 1.02;
+    letter-spacing: -3px;
+    font-weight: 800;
+    color: white;
+}
+
+.team-hero h1 span {
+    color: var(--orange);
+    display: inline;
+}
+
+.team-hero p {
+    max-width: 760px;
+    margin: 0;
+    color: #d3dce7;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.team-hero-line {
+    display: none;
+}
+
+
+/* =========================================
+   TEAM INTRO
+========================================= */
+
+.team-intro {
+    background: var(--off-white);
+    color: var(--dark-text);
+    padding: 105px 8% 75px;
+    display: block;
+}
+
+.team-intro-text {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.team-intro-text .section-label {
+    margin-bottom: 20px;
+}
+
+.team-intro-text h2 {
+    max-width: 850px;
+    margin: 0 0 22px;
+    font-size: clamp(40px, 5vw, 62px);
+    line-height: 1.05;
+    letter-spacing: -2.5px;
+    color: var(--dark-text);
+}
+
+.team-intro-text h2 span {
+    color: var(--orange);
+    display: inline;
+}
+
+.team-intro-text p {
+    max-width: 760px;
+    margin: 0;
+    color: #59697b;
+    font-size: 17px;
+    line-height: 1.75;
+}
+
+
+/* =========================================
+   TEAM CARDS
+========================================= */
+
+.team-section {
+    background: var(--off-white);
+    color: var(--dark-text);
+    padding: 35px 8% 120px;
+}
+
+.team-grid {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.team-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 12px 35px rgba(7, 23, 44, 0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(7, 23, 44, 0.13);
+}
+
+
+/* =========================================
+   TEAM PHOTOS
+========================================= */
+
+.team-photo {
+    width: 100%;
+    height: 390px;
+    background: #e7ecf2;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.team-card:hover .team-photo img {
+    transform: scale(1.03);
+}
+
+
+/* =========================================
+   TEAM INFORMATION
+========================================= */
+
+.team-info {
+    padding: 30px 34px 36px;
+}
+
+.team-role {
+    color: var(--orange);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.team-info h2 {
+    color: var(--dark-text);
+    font-size: 30px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin: 0 0 16px;
+}
+
+.team-info p {
+    color: #59697b;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+/* =========================================
+   TEAM CTA
+========================================= */
+
+.team-cta {
+    background: var(--orange);
+    color: white;
+    padding: 90px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.team-cta-content {
+    max-width: 850px;
+}
+
+.team-cta .section-label {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.team-cta h2 {
+    max-width: 850px;
+    margin: 0 0 18px;
+    font-size: clamp(40px, 5vw, 65px);
+    line-height: 1.05;
+    letter-spacing: -2.5px;
+    color: white;
+}
+
+.team-cta h2 span {
+    color: var(--navy);
+    display: inline;
+}
+
+.team-cta p {
+    margin: 0;
+    font-size: 16px;
+    color: rgba(255,255,255,0.9);
+}
+
+.team-cta-button {
+    flex-shrink: 0;
+    background: var(--navy);
+    color: white;
+    padding: 16px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: 0.3s ease;
+}
+
+.team-cta-button:hover {
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   TEAM PAGE — MOBILE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .team-grid {
+        grid-template-columns: 1fr;
+        max-width: 650px;
+    }
+
+    .team-cta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .team-hero {
+        padding: 125px 7% 80px;
+    }
+
+    .team-hero h1 {
+        font-size: 48px;
+        letter-spacing: -2px;
+    }
+
+    .team-hero p {
+        font-size: 16px;
+    }
+
+    .team-intro {
+        padding: 75px 7% 55px;
+    }
+
+    .team-intro-text h2 {
+        font-size: 40px;
+        letter-spacing: -1.5px;
+    }
+
+    .team-section {
+        padding: 25px 7% 80px;
+    }
+
+    .team-photo {
+        height: 340px;
+    }
+
+    .team-info {
+        padding: 27px 25px 32px;
+    }
+
+    .team-info h2 {
+        font-size: 27px;
+    }
+
+    .team-cta {
+        padding: 70px 7%;
+    }
+
+    .team-cta h2 {
+        font-size: 42px;
+        letter-spacing: -1.5px;
+    }
+
+}
 }

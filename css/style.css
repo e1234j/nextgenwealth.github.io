@@ -2888,3 +2888,13 @@ footer {
     }
 
 }
+
+/* Fix Get Involved heading visibility */
+
+.involved-section h2 {
+    color: #ffffff !important;
+}
+
+.involved-section h2 span {
+    color: var(--orange) !important;
+}

@@ -3524,3 +3524,26 @@ footer {
     }
 
 }
+/* REGISTER PAGE - NAVY TEXT ON LIGHT BACKGROUND */
+.register-page {
+    color: #0B1F3A;
+}
+
+.register-page h1,
+.register-page h2,
+.register-page h3,
+.register-page h4,
+.register-page p,
+.register-page span,
+.register-page div,
+.register-page label {
+    color: #0B1F3A;
+}
+
+.register-page a {
+    color: #0B1F3A;
+}
+
+.register-page .section-label {
+    color: #FF7A00;
+}
